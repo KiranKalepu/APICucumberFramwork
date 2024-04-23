@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	@Before("@DeletePlace )
+	@Before("@DeletePlace")
 	public void addPlace() throws IOException
 	{
 		ValidatePlaceStepDefination sd = new ValidatePlaceStepDefination();

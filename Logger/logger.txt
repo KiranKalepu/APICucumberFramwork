@@ -27,7 +27,7 @@ Body:
     "language": "Selenium"
 }
 HTTP/1.1 200 OK
-Date: Mon, 22 Apr 2024 11:52:12 GMT
+Date: Tue, 23 Apr 2024 05:35:36 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,46 +40,38 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "11b9a6b4bc8492b71b311273d03e6cc9",
+    "place_id": "aa7a59d8d5379b405b5d40a0f6dac9fa",
     "scope": "APP",
-    "reference": "431eda23fd67991ca2602d984e600b9c431eda23fd67991ca2602d984e600b9c",
-    "id": "431eda23fd67991ca2602d984e600b9c"
+    "reference": "77e32e9327abb2fb40de95ac30e23de177e32e9327abb2fb40de95ac30e23de1",
+    "id": "77e32e9327abb2fb40de95ac30e23de1"
 }
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=11b9a6b4bc8492b71b311273d03e6cc9
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=11b9a6b4bc8492b71b311273d03e6cc9
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "place_id": "aa7a59d8d5379b405b5d40a0f6dac9fa"
+}
 HTTP/1.1 200 OK
-Date: Mon, 22 Apr 2024 11:52:13 GMT
+Date: Tue, 23 Apr 2024 05:35:37 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 250
+Content-Length: 15
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 {
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "50",
-    "name": "Kiran QA",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "29, side layout, cohen 09",
-    "types": "shoe park:,shop",
-    "website": "http://google.com",
-    "language": "Selenium"
+    "status": "OK"
 }

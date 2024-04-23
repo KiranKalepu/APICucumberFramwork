@@ -118,6 +118,7 @@
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven
 			defaults (may be moved to parent pom) -->
 			<plugins>
+<<<<<<< HEAD
 				<!-- clean lifecycle, see
 				https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
 				<plugin>
@@ -167,6 +168,9 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
+=======
+				
+>>>>>>> aaf26387dc390690cba8986624eb60e3b9560ae4
 			</plugins>
 		</pluginManagement>
 	</build>
